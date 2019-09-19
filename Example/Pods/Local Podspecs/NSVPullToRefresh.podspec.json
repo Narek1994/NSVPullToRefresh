@@ -1,0 +1,22 @@
+{
+  "name": "NSVPullToRefresh",
+  "version": "0.1.0",
+  "summary": "A short description of NSVPullToRefresh.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Narek1994/NSVPullToRefresh",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Narek1994": "nareksimonyan94@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Narek1994/NSVPullToRefresh.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NSVPullToRefresh/Classes/**/*"
+}

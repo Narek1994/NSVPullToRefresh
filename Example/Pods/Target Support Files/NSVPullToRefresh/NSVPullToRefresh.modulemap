@@ -1,0 +1,6 @@
+framework module NSVPullToRefresh {
+  umbrella header "NSVPullToRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}

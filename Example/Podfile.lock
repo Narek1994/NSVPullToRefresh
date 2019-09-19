@@ -1,0 +1,16 @@
+PODS:
+  - NSVPullToRefresh (0.1.0)
+
+DEPENDENCIES:
+  - NSVPullToRefresh (from `../`)
+
+EXTERNAL SOURCES:
+  NSVPullToRefresh:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NSVPullToRefresh: 6a6b4af261162ad43343367c3258598a386e7953
+
+PODFILE CHECKSUM: 12c93f832a69a800b9de62fc72f5b7d26b5c317e
+
+COCOAPODS: 1.7.5

@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		082555A1B1766E96D2E5249D0BDC67DC /* Pods-NSVPullToRefresh_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E2AB61E7AFC415FB1A7190A283532E /* Pods-NSVPullToRefresh_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CC57A599A19A1967D4517123A69D252 /* UIView+SubViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC74D63E92B8A6E28B16A442E095B5 /* UIView+SubViews.swift */; };
+		25D0FC05C749694C1EE0D27277C00E06 /* UIPanGesture+Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EF3964D778777208BD86F7BC7DF59A /* UIPanGesture+Directions.swift */; };
+		3A76446781727472A588DC45FC9B0B76 /* UIActivityIndicatorView+LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7E1237FF73EA02BDD43E3E581B0574 /* UIActivityIndicatorView+LoadingView.swift */; };
+		465CAACFB1FDEE8B469EEA9AC1917E25 /* NSVPullToRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42DD636A56F354675E2D34F8A898FFC8 /* NSVPullToRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		546960A23E8B3B09BAD34418110F99FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		67261C362C37B9FE69EE4244E3271BB8 /* UIView+PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9F4CC33B8390866C92704876A835B5 /* UIView+PullToRefresh.swift */; };
+		6BBF0475131020A1AC6E92FB0D9D7D48 /* Pods-NSVPullToRefresh_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DC997E3ED73E1766AB3B344E54327A /* Pods-NSVPullToRefresh_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D8991818679CD0824AB5D602715BBF4 /* ObjectAssication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5002C000DDF73EC9640D53E00F4A0 /* ObjectAssication.swift */; };
+		7F2F100625272522CEE41817D13AAE9D /* NSVPullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5688EBC42726EA3ED3CB3038697BB48B /* NSVPullToRefresh-dummy.m */; };
+		A3FD91A32DCEE0EAA3A4329CCA184EA2 /* Pods-NSVPullToRefresh_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1C4EA15B904B87DEB4A451427F6D58 /* Pods-NSVPullToRefresh_Example-dummy.m */; };
+		A75DE83D5E6160EEE4F66517FBE91146 /* PullToRefreshProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A1A87772090AA56143F502800AF344 /* PullToRefreshProtocols.swift */; };
+		BB39735A3E3028381119C09B6DE69394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EC87372EF5525A7C0FF1174F113098E1 /* Pods-NSVPullToRefresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53519972E548BD0BD91C72EB0DA3CF85 /* Pods-NSVPullToRefresh_Tests-dummy.m */; };
+		F4C14EECEDA2DD1E208E689E9EA3A841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AA6BE7D50E64C5F8EB7FA8FA67D1445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 569991529B878CF0DCFE9CBE0DF03D11;
+			remoteInfo = "Pods-NSVPullToRefresh_Example";
+		};
+		D7CFCBB50D1427CFA9D4C1DD3B0720CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29041DC147AFF1BA2354905E9663DF04;
+			remoteInfo = NSVPullToRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0011A6D540EBF45AAB81CF43ADD49743 /* Pods-NSVPullToRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSVPullToRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		00E2AB61E7AFC415FB1A7190A283532E /* Pods-NSVPullToRefresh_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSVPullToRefresh_Tests-umbrella.h"; sourceTree = "<group>"; };
+		04DC997E3ED73E1766AB3B344E54327A /* Pods-NSVPullToRefresh_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSVPullToRefresh_Example-umbrella.h"; sourceTree = "<group>"; };
+		0B7E1237FF73EA02BDD43E3E581B0574 /* UIActivityIndicatorView+LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIActivityIndicatorView+LoadingView.swift"; path = "NSVPullToRefresh/Classes/UIActivityIndicatorView+LoadingView.swift"; sourceTree = "<group>"; };
+		1C06D5F5CD120BB859AAD0DE2B642818 /* Pods-NSVPullToRefresh_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSVPullToRefresh_Tests-Info.plist"; sourceTree = "<group>"; };
+		254BE45F957B892ED888BDB9475CDDA0 /* NSVPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NSVPullToRefresh.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		373C25BF25CD7AB40251FE538B8CCD99 /* Pods-NSVPullToRefresh_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSVPullToRefresh_Example.modulemap"; sourceTree = "<group>"; };
+		3FDC74D63E92B8A6E28B16A442E095B5 /* UIView+SubViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SubViews.swift"; path = "NSVPullToRefresh/Classes/UIView+SubViews.swift"; sourceTree = "<group>"; };
+		42DD636A56F354675E2D34F8A898FFC8 /* NSVPullToRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSVPullToRefresh-umbrella.h"; sourceTree = "<group>"; };
+		441CE2F0515BC9F17DE1C7039862B13C /* NSVPullToRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NSVPullToRefresh.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		462BE5DAF4E1BCC42A9B7BAC39161627 /* Pods-NSVPullToRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSVPullToRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		53519972E548BD0BD91C72EB0DA3CF85 /* Pods-NSVPullToRefresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSVPullToRefresh_Tests-dummy.m"; sourceTree = "<group>"; };
+		542079B787345D18ADFFEC3698DF335F /* Pods-NSVPullToRefresh_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSVPullToRefresh_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5688EBC42726EA3ED3CB3038697BB48B /* NSVPullToRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSVPullToRefresh-dummy.m"; sourceTree = "<group>"; };
+		6376FF2891972862C199A10CB52A72F8 /* Pods_NSVPullToRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSVPullToRefresh_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6418D57B4ED31383C940A74978B54B0B /* NSVPullToRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSVPullToRefresh.xcconfig; sourceTree = "<group>"; };
+		66C93ACFFB931889E82B100E9FD67B21 /* Pods-NSVPullToRefresh_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSVPullToRefresh_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F9F4CC33B8390866C92704876A835B5 /* UIView+PullToRefresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+PullToRefresh.swift"; path = "NSVPullToRefresh/Classes/UIView+PullToRefresh.swift"; sourceTree = "<group>"; };
+		9956035B0869F915CAADE28A321A1701 /* Pods_NSVPullToRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSVPullToRefresh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0F5087862555B9BA7B8ED6B5C398C2 /* NSVPullToRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NSVPullToRefresh-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E857441AB42303422BE366F1B7FB1D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A641B1AC6806FF6AFAC7D981F7D8561E /* Pods-NSVPullToRefresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSVPullToRefresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD1C4EA15B904B87DEB4A451427F6D58 /* Pods-NSVPullToRefresh_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSVPullToRefresh_Example-dummy.m"; sourceTree = "<group>"; };
+		B6B5002C000DDF73EC9640D53E00F4A0 /* ObjectAssication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectAssication.swift; path = NSVPullToRefresh/Classes/ObjectAssication.swift; sourceTree = "<group>"; };
+		C7764F239B2DE379FB99DE8627012376 /* NSVPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSVPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CBE16420FB0A25CE7724A825BD123B /* Pods-NSVPullToRefresh_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSVPullToRefresh_Example-Info.plist"; sourceTree = "<group>"; };
+		D0A1A87772090AA56143F502800AF344 /* PullToRefreshProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PullToRefreshProtocols.swift; path = NSVPullToRefresh/Classes/PullToRefreshProtocols.swift; sourceTree = "<group>"; };
+		D1891B74692913429BCC9C6C46D5FE26 /* Pods-NSVPullToRefresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSVPullToRefresh_Tests.modulemap"; sourceTree = "<group>"; };
+		D46BBE0A377D9C6E5749B8FC23A39892 /* Pods-NSVPullToRefresh_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSVPullToRefresh_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DF0A294BADFA8387AB300CCB207FC658 /* Pods-NSVPullToRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSVPullToRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E091794A228FEEDDB4F95D1186B85025 /* Pods-NSVPullToRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSVPullToRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E5D3AA849CDE83B866AB72511F549820 /* Pods-NSVPullToRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSVPullToRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E822AB63F92C8A765B33CB1D9EE73DD7 /* NSVPullToRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSVPullToRefresh-prefix.pch"; sourceTree = "<group>"; };
+		F1EF3964D778777208BD86F7BC7DF59A /* UIPanGesture+Directions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPanGesture+Directions.swift"; path = "NSVPullToRefresh/Classes/UIPanGesture+Directions.swift"; sourceTree = "<group>"; };
+		F9FDE5E148D8333C5B6788940D56BFF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		249F1069DE068340B893EAA5F3BB0114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546960A23E8B3B09BAD34418110F99FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D4080CC62BA7EBE142A1CB65AF0097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB39735A3E3028381119C09B6DE69394 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DBEAA826FE930C802F444BF25EA0A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C14EECEDA2DD1E208E689E9EA3A841 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A377C7105A785A5A6A3E5E38154DE8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9E857441AB42303422BE366F1B7FB1D4 /* LICENSE */,
+				441CE2F0515BC9F17DE1C7039862B13C /* NSVPullToRefresh.podspec */,
+				F9FDE5E148D8333C5B6788940D56BFF6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		367AF87AC0DCE56668FC79EB4008937E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF47339C464117DACAC59E481135DEEF /* Pods-NSVPullToRefresh_Example */,
+				3E0C1F85CC9988593B8FBA96DA97AB2D /* Pods-NSVPullToRefresh_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3E0C1F85CC9988593B8FBA96DA97AB2D /* Pods-NSVPullToRefresh_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D1891B74692913429BCC9C6C46D5FE26 /* Pods-NSVPullToRefresh_Tests.modulemap */,
+				A641B1AC6806FF6AFAC7D981F7D8561E /* Pods-NSVPullToRefresh_Tests-acknowledgements.markdown */,
+				462BE5DAF4E1BCC42A9B7BAC39161627 /* Pods-NSVPullToRefresh_Tests-acknowledgements.plist */,
+				53519972E548BD0BD91C72EB0DA3CF85 /* Pods-NSVPullToRefresh_Tests-dummy.m */,
+				1C06D5F5CD120BB859AAD0DE2B642818 /* Pods-NSVPullToRefresh_Tests-Info.plist */,
+				00E2AB61E7AFC415FB1A7190A283532E /* Pods-NSVPullToRefresh_Tests-umbrella.h */,
+				E5D3AA849CDE83B866AB72511F549820 /* Pods-NSVPullToRefresh_Tests.debug.xcconfig */,
+				DF0A294BADFA8387AB300CCB207FC658 /* Pods-NSVPullToRefresh_Tests.release.xcconfig */,
+			);
+			name = "Pods-NSVPullToRefresh_Tests";
+			path = "Target Support Files/Pods-NSVPullToRefresh_Tests";
+			sourceTree = "<group>";
+		};
+		762F36DC7564151374AE555DB59E115D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F73C75EB735BEA309E499CBD7F3391B5 /* NSVPullToRefresh */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		914E7C7E23387D351A341BCD005B57D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7764F239B2DE379FB99DE8627012376 /* NSVPullToRefresh.framework */,
+				6376FF2891972862C199A10CB52A72F8 /* Pods_NSVPullToRefresh_Example.framework */,
+				9956035B0869F915CAADE28A321A1701 /* Pods_NSVPullToRefresh_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE876154E0E0A83B11A8E9FF2C838327 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				254BE45F957B892ED888BDB9475CDDA0 /* NSVPullToRefresh.modulemap */,
+				6418D57B4ED31383C940A74978B54B0B /* NSVPullToRefresh.xcconfig */,
+				5688EBC42726EA3ED3CB3038697BB48B /* NSVPullToRefresh-dummy.m */,
+				9A0F5087862555B9BA7B8ED6B5C398C2 /* NSVPullToRefresh-Info.plist */,
+				E822AB63F92C8A765B33CB1D9EE73DD7 /* NSVPullToRefresh-prefix.pch */,
+				42DD636A56F354675E2D34F8A898FFC8 /* NSVPullToRefresh-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NSVPullToRefresh";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				762F36DC7564151374AE555DB59E115D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				914E7C7E23387D351A341BCD005B57D5 /* Products */,
+				367AF87AC0DCE56668FC79EB4008937E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF47339C464117DACAC59E481135DEEF /* Pods-NSVPullToRefresh_Example */ = {
+			isa = PBXGroup;
+			children = (
+				373C25BF25CD7AB40251FE538B8CCD99 /* Pods-NSVPullToRefresh_Example.modulemap */,
+				66C93ACFFB931889E82B100E9FD67B21 /* Pods-NSVPullToRefresh_Example-acknowledgements.markdown */,
+				542079B787345D18ADFFEC3698DF335F /* Pods-NSVPullToRefresh_Example-acknowledgements.plist */,
+				AD1C4EA15B904B87DEB4A451427F6D58 /* Pods-NSVPullToRefresh_Example-dummy.m */,
+				D46BBE0A377D9C6E5749B8FC23A39892 /* Pods-NSVPullToRefresh_Example-frameworks.sh */,
+				C9CBE16420FB0A25CE7724A825BD123B /* Pods-NSVPullToRefresh_Example-Info.plist */,
+				04DC997E3ED73E1766AB3B344E54327A /* Pods-NSVPullToRefresh_Example-umbrella.h */,
+				0011A6D540EBF45AAB81CF43ADD49743 /* Pods-NSVPullToRefresh_Example.debug.xcconfig */,
+				E091794A228FEEDDB4F95D1186B85025 /* Pods-NSVPullToRefresh_Example.release.xcconfig */,
+			);
+			name = "Pods-NSVPullToRefresh_Example";
+			path = "Target Support Files/Pods-NSVPullToRefresh_Example";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F73C75EB735BEA309E499CBD7F3391B5 /* NSVPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				B6B5002C000DDF73EC9640D53E00F4A0 /* ObjectAssication.swift */,
+				D0A1A87772090AA56143F502800AF344 /* PullToRefreshProtocols.swift */,
+				0B7E1237FF73EA02BDD43E3E581B0574 /* UIActivityIndicatorView+LoadingView.swift */,
+				F1EF3964D778777208BD86F7BC7DF59A /* UIPanGesture+Directions.swift */,
+				7F9F4CC33B8390866C92704876A835B5 /* UIView+PullToRefresh.swift */,
+				3FDC74D63E92B8A6E28B16A442E095B5 /* UIView+SubViews.swift */,
+				01A377C7105A785A5A6A3E5E38154DE8 /* Pod */,
+				AE876154E0E0A83B11A8E9FF2C838327 /* Support Files */,
+			);
+			name = NSVPullToRefresh;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00E2E04421105E9C1C36C05A4FA6BDEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082555A1B1766E96D2E5249D0BDC67DC /* Pods-NSVPullToRefresh_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8693D55850096831AC02783D38665FF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465CAACFB1FDEE8B469EEA9AC1917E25 /* NSVPullToRefresh-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D1EA21DF09296D53FADBB745F6DA0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBF0475131020A1AC6E92FB0D9D7D48 /* Pods-NSVPullToRefresh_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29041DC147AFF1BA2354905E9663DF04 /* NSVPullToRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3062342FF661CC9DD29C09CC61E26C65 /* Build configuration list for PBXNativeTarget "NSVPullToRefresh" */;
+			buildPhases = (
+				8693D55850096831AC02783D38665FF8 /* Headers */,
+				A08C88FB34D2894B88F7241B2C525030 /* Sources */,
+				249F1069DE068340B893EAA5F3BB0114 /* Frameworks */,
+				2C3F67A9B1C5ED90D657D6968857236A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSVPullToRefresh;
+			productName = NSVPullToRefresh;
+			productReference = C7764F239B2DE379FB99DE8627012376 /* NSVPullToRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2F40717A5C2E6601BB08273D38C61659 /* Pods-NSVPullToRefresh_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A76EEF442251FD5029BE07AFAF03A4D /* Build configuration list for PBXNativeTarget "Pods-NSVPullToRefresh_Tests" */;
+			buildPhases = (
+				00E2E04421105E9C1C36C05A4FA6BDEF /* Headers */,
+				B581DAFA06C8AF5F4087A85B0DAB4113 /* Sources */,
+				9DBEAA826FE930C802F444BF25EA0A0C /* Frameworks */,
+				DA7F9DBA32AEAC512E3EFBD04CE51F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF0ED268C54C22A50B395C593A0787D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-NSVPullToRefresh_Tests";
+			productName = "Pods-NSVPullToRefresh_Tests";
+			productReference = 9956035B0869F915CAADE28A321A1701 /* Pods_NSVPullToRefresh_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		569991529B878CF0DCFE9CBE0DF03D11 /* Pods-NSVPullToRefresh_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A13E916F063B08CF4899F2FFB2FD619 /* Build configuration list for PBXNativeTarget "Pods-NSVPullToRefresh_Example" */;
+			buildPhases = (
+				B0D1EA21DF09296D53FADBB745F6DA0C /* Headers */,
+				06C875BE490B0F4B768137D6CA456E45 /* Sources */,
+				79D4080CC62BA7EBE142A1CB65AF0097 /* Frameworks */,
+				26B4ACF946E35BDD2F2130A89C4677F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D3A441031E9BF13ADFA535A59BC077D /* PBXTargetDependency */,
+			);
+			name = "Pods-NSVPullToRefresh_Example";
+			productName = "Pods-NSVPullToRefresh_Example";
+			productReference = 6376FF2891972862C199A10CB52A72F8 /* Pods_NSVPullToRefresh_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					29041DC147AFF1BA2354905E9663DF04 = {
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 914E7C7E23387D351A341BCD005B57D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29041DC147AFF1BA2354905E9663DF04 /* NSVPullToRefresh */,
+				569991529B878CF0DCFE9CBE0DF03D11 /* Pods-NSVPullToRefresh_Example */,
+				2F40717A5C2E6601BB08273D38C61659 /* Pods-NSVPullToRefresh_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26B4ACF946E35BDD2F2130A89C4677F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3F67A9B1C5ED90D657D6968857236A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7F9DBA32AEAC512E3EFBD04CE51F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06C875BE490B0F4B768137D6CA456E45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FD91A32DCEE0EAA3A4329CCA184EA2 /* Pods-NSVPullToRefresh_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C88FB34D2894B88F7241B2C525030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2F100625272522CEE41817D13AAE9D /* NSVPullToRefresh-dummy.m in Sources */,
+				6D8991818679CD0824AB5D602715BBF4 /* ObjectAssication.swift in Sources */,
+				A75DE83D5E6160EEE4F66517FBE91146 /* PullToRefreshProtocols.swift in Sources */,
+				3A76446781727472A588DC45FC9B0B76 /* UIActivityIndicatorView+LoadingView.swift in Sources */,
+				25D0FC05C749694C1EE0D27277C00E06 /* UIPanGesture+Directions.swift in Sources */,
+				67261C362C37B9FE69EE4244E3271BB8 /* UIView+PullToRefresh.swift in Sources */,
+				1CC57A599A19A1967D4517123A69D252 /* UIView+SubViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B581DAFA06C8AF5F4087A85B0DAB4113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC87372EF5525A7C0FF1174F113098E1 /* Pods-NSVPullToRefresh_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D3A441031E9BF13ADFA535A59BC077D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NSVPullToRefresh;
+			target = 29041DC147AFF1BA2354905E9663DF04 /* NSVPullToRefresh */;
+			targetProxy = D7CFCBB50D1427CFA9D4C1DD3B0720CD /* PBXContainerItemProxy */;
+		};
+		CF0ED268C54C22A50B395C593A0787D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NSVPullToRefresh_Example";
+			target = 569991529B878CF0DCFE9CBE0DF03D11 /* Pods-NSVPullToRefresh_Example */;
+			targetProxy = 8AA6BE7D50E64C5F8EB7FA8FA67D1445 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E574AAC4DB18973E683D00B2011AA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6418D57B4ED31383C940A74978B54B0B /* NSVPullToRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NSVPullToRefresh/NSVPullToRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSVPullToRefresh/NSVPullToRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSVPullToRefresh/NSVPullToRefresh.modulemap";
+				PRODUCT_MODULE_NAME = NSVPullToRefresh;
+				PRODUCT_NAME = NSVPullToRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5EE29D9215C9639C6D6A4CE77B26111C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6418D57B4ED31383C940A74978B54B0B /* NSVPullToRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NSVPullToRefresh/NSVPullToRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSVPullToRefresh/NSVPullToRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSVPullToRefresh/NSVPullToRefresh.modulemap";
+				PRODUCT_MODULE_NAME = NSVPullToRefresh;
+				PRODUCT_NAME = NSVPullToRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7057EB2DFB6B962838A7072605F7FB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0011A6D540EBF45AAB81CF43ADD49743 /* Pods-NSVPullToRefresh_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSVPullToRefresh_Example/Pods-NSVPullToRefresh_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSVPullToRefresh_Example/Pods-NSVPullToRefresh_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A390A4716F3225A032028A99203C9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E091794A228FEEDDB4F95D1186B85025 /* Pods-NSVPullToRefresh_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSVPullToRefresh_Example/Pods-NSVPullToRefresh_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSVPullToRefresh_Example/Pods-NSVPullToRefresh_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88A5ECF3FCFEA2468C20A64CDE1D5A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0A294BADFA8387AB300CCB207FC658 /* Pods-NSVPullToRefresh_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSVPullToRefresh_Tests/Pods-NSVPullToRefresh_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSVPullToRefresh_Tests/Pods-NSVPullToRefresh_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C6124F13CFC3BF2ABAFB23D1514A19BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D3AA849CDE83B866AB72511F549820 /* Pods-NSVPullToRefresh_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSVPullToRefresh_Tests/Pods-NSVPullToRefresh_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSVPullToRefresh_Tests/Pods-NSVPullToRefresh_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A13E916F063B08CF4899F2FFB2FD619 /* Build configuration list for PBXNativeTarget "Pods-NSVPullToRefresh_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7057EB2DFB6B962838A7072605F7FB63 /* Debug */,
+				7A390A4716F3225A032028A99203C9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A76EEF442251FD5029BE07AFAF03A4D /* Build configuration list for PBXNativeTarget "Pods-NSVPullToRefresh_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6124F13CFC3BF2ABAFB23D1514A19BA /* Debug */,
+				88A5ECF3FCFEA2468C20A64CDE1D5A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3062342FF661CC9DD29C09CC61E26C65 /* Build configuration list for PBXNativeTarget "NSVPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE29D9215C9639C6D6A4CE77B26111C /* Debug */,
+				0E574AAC4DB18973E683D00B2011AA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
