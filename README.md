@@ -1,4 +1,4 @@
-#Customizable PullToRefresh for any kind of view
+## Customizable PullToRefresh for any kind of view
 
 [![CI Status](https://img.shields.io/travis/Narek1994/NSVPullToRefresh.svg?style=flat)](https://travis-ci.org/Narek1994/NSVPullToRefresh)
 [![Version](https://img.shields.io/cocoapods/v/NSVPullToRefresh.svg?style=flat)](https://cocoapods.org/pods/NSVPullToRefresh)
