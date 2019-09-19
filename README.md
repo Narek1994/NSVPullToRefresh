@@ -45,7 +45,7 @@ hidePullToRefresh()
 ```
 on that view.
 ## Creating custom PullToRefresh
-Default it uses UIActivityIndicatorView, for customizing you will need to create any ```UIView``` which will implement ```LoadingView``` protocol. You will need to specify ```size``` of refresher, ```topOffset```, and also implement ```startLoading``` and ```stopLoading``` methods. Optionally there is a ```speed``` property with default value of ```1```.
+Default it uses ```UIActivityIndicatorView```, for customizing you will need to create any ```UIView``` which will implement ```LoadingView``` protocol. You will need to specify ```size``` of refresher, ```topOffset```, and also implement ```startLoading``` and ```stopLoading``` methods. Optionally there is a ```speed``` property with default value of ```1```.
 ## Progress of Refreshing
 You can get the progress of refreshing by adding this callback. It will give value from ```0``` to ```1```.
 ```swift
